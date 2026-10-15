@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mavlinkcamera>
+  <definition version="2">
+    <model>ILX-LR1</model>
+    <vendor>Sony</vendor>
+  </definition>
+  <parameters>
+    <parameter name="CAM_EV" type="float" default="0">
+      <description>曝光补偿</description>
+      <options>
+        <option name="+0.0" value="0" />
+        <option name="+0.3" value="0.3" />
+        <option name="+0.7" value="0.7" />
+        <option name="+1.0" value="1" />
+        <option name="+1.3" value="1.3" />
+        <option name="+1.7" value="1.7" />
+        <option name="+2.0" value="2" />
+        <option name="+2.3" value="2.3" />
+        <option name="+2.7" value="2.7" />
+        <option name="+3.0" value="3" />
+        <option name="+3.3" value="3.3" />
+        <option name="+3.7" value="3.7" />
+        <option name="+4.0" value="4" />
+        <option name="+4.3" value="4.3" />
+        <option name="+4.7" value="4.7" />
+        <option name="+5.0" value="5" />
+      </options>
+    </parameter>
+    <parameter name="CAM_EXPMODE" type="uint32" default="2">
+      <description>曝光模式</description>
+      <options>
+        <option name="程序自动 Auto" value="2" />
+        <option name="光圈优先 A" value="3" />
+        <option name="快门优先 S" value="4" />
+        <option name="手动曝光 M" value="1" />
+      </options>
+    </parameter>
+    <parameter name="CAM_ISO" type="uint32" default="0">
+      <description>ISO</description>
+      <options>
+        <option name="Auto" value="0" />
+        <option name="50" value="50" />
+        <option name="64" value="64" />
+        <option name="80" value="80" />
+        <option name="100" value="100" />
+        <option name="125" value="125" />
+        <option name="160" value="160" />
+        <option name="200" value="200" />
+        <option name="250" value="250" />
+        <option name="320" value="320" />
+        <option name="400" value="400" />
+        <option name="500" value="500" />
+        <option name="640" value="640" />
+        <option name="800" value="800" />
+        <option name="1000" value="1000" />
+        <option name="1250" value="1250" />
+        <option name="1600" value="1600" />
+        <option name="2000" value="2000" />
+        <option name="2500" value="2500" />
+        <option name="3200" value="3200" />
+        <option name="4000" value="4000" />
+        <option name="5000" value="5000" />
+        <option name="6400" value="6400" />
+        <option name="8000" value="8000" />
+        <option name="10000" value="10000" />
+        <option name="12800" value="12800" />
+        <option name="16000" value="16000" />
+        <option name="20000" value="20000" />
+        <option name="25600" value="25600" />
+        <option name="32000" value="32000" />
+        <option name="40000" value="40000" />
+        <option name="51200" value="51200" />
+        <option name="64000" value="64000" />
+        <option name="80000" value="80000" />
+        <option name="102400" value="102400" />
+      </options>
+    </parameter>
+    <parameter name="CAM_APERTURE" type="float" default="5.6">
+      <description>光圈</description>
+      <options>
+        <option name="F5.6" value="5.6" />
+        <option name="F6.3" value="6.3" />
+        <option name="F7.1" value="7.1" />
+        <option name="F8.0" value="8" />
+        <option name="F9.0" value="9" />
+        <option name="F10" value="10" />
+        <option name="F11" value="11" />
+        <option name="F13" value="13" />
+        <option name="F14" value="14" />
+        <option name="F16" value="16" />
+        <option name="F18" value="18" />
+        <option name="F20" value="20" />
+        <option name="F22" value="22" />
+      </options>
+    </parameter>
+    <parameter name="CAM_SHUTTERSPD" type="float" default="0.005">
+      <description>快门</description>
+      <options>
+        <option name="1/200" value="0.005" />
+        <option name="1/160" value="0.00625" />
+        <option name="1/125" value="0.008" />
+        <option name="1/100" value="0.01" />
+        <option name="1/80" value="0.0125" />
+        <option name="1/60" value="0.0166666666666667" />
+        <option name="1/50" value="0.02" />
+        <option name="1/40" value="0.025" />
+        <option name="1/30" value="0.0333333333333333" />
+        <option name="1/25" value="0.04" />
+        <option name="1/20" value="0.05" />
+        <option name="1/15" value="0.0666666666666667" />
+        <option name="1/13" value="0.0769230769230769" />
+        <option name="1/10" value="0.1" />
+        <option name="1/8" value="0.125" />
+        <option name="1/6" value="0.166666666666667" />
+        <option name="1/5" value="0.2" />
+        <option name="1/4" value="0.25" />
+        <option name="1/3" value="0.333333333333333" />
+        <option name="0.4" value="0.4" />
+        <option name="0.5" value="0.5" />
+        <option name="0.6" value="0.6" />
+        <option name="0.8" value="0.8" />
+        <option name="1" value="1" />
+        <option name="1.3" value="1.3" />
+        <option name="1.6" value="1.6" />
+        <option name="2" value="2" />
+        <option name="2.5" value="2.5" />
+        <option name="3.2" value="3.2" />
+        <option name="4" value="4" />
+        <option name="5" value="5" />
+        <option name="6" value="6" />
+        <option name="8" value="8" />
+        <option name="10" value="10" />
+        <option name="13" value="13" />
+        <option name="15" value="15" />
+        <option name="20" value="20" />
+        <option name="25" value="25" />
+        <option name="30" value="30" />
+      </options>
+    </parameter>
+    <parameter name="CAM_FOCUSMODE" type="uint32" default="2">
+      <description>对焦模式</description>
+      <options>
+        <option name="AF-S" value="2" />
+        <option name="AF-A" value="4" />
+        <option name="AF-C" value="3" />
+        <option name="DMF" value="6" />
+        <option name="MF" value="1" />
+      </options>
+    </parameter>
+    <parameter name="CAM_FOCUSAREA" type="uint32" default="1">
+      <description>对焦区域</description>
+      <options>
+        <option name="广域" value="1" />
+        <option name="区" value="2" />
+        <option name="中间固定" value="3" />
+        <option name="点:S" value="4" />
+        <option name="点:M" value="5" />
+        <option name="点:L" value="6" />
+      </options>
+    </parameter>
+    <parameter name="CAM_MODE" type="uint32" default="0" control="0" readonly="1">
+      <description>相机模式</description>
+      <options>
+        <option name="拍照" value="0" />
+        <option name="录像" value="1" />
+      </options>
+    </parameter>
+  </parameters>
+</mavlinkcamera>
